@@ -1,0 +1,24 @@
+.box{
+    height: 600px;
+    display: grid;
+    grid-template-areas: "l1 l1 l1"
+                          "c1 c3 c2";
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 100px 1fr 100px;
+}
+.linha1{
+    background-color: blue;
+    grid-area: l1;
+}
+.coluna1{
+    background-color: pink;
+    grid-area: c1;
+}
+.coluna2{
+    background-color: purple;
+    grid-area: c3;
+}
+.coluna3{
+    background-color: green;
+    grid-area: c2;
+}
