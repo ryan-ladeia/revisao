@@ -1,0 +1,7 @@
+#img{
+    height: 300px;
+    width: 300px;
+     background-image: url(logoif.png);
+     background-repeat: no-repeat;
+    background-position: top right;
+}

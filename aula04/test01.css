@@ -1,0 +1,28 @@
+ #div1{
+    background-color: rgb(22, 232, 222);
+    height: 100px;
+    border: red 1px solid;
+ }
+ .div12{
+    background-color: rgb(35, 233, 51);
+    color: green;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 600px;
+ }
+ #div2{
+    background-color: rgb(232, 22, 145);
+    height: 300xp;
+    border: red 1px solid;
+    margin-top: 3px;
+ }
+
+ .div21{
+    background-color: purple;
+    height: 15px;
+ }
+
+.div22{
+    background-color: rgb(23, 126, 244);
+    height: 15px;
+}
