@@ -1,0 +1,44 @@
+body{
+    background-color: blue; 
+    margin: 0px ;
+}
+.box{
+    background-color: rgba(0, 174, 255, 0.76);
+    margin: 10px;
+    height: 600px;
+    width: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "HEARDER HEARDER HEARDER"
+                          "MENU1 MAIN RIGHT1" 
+                          "MENU1 FOOTER FOOTER";
+    grid-template-rows: 150px 1fr 100px;
+    grid-template-columns: 100px 1fr 100px;
+
+}
+.titulo{
+    background-color: aqua;
+    grid-area: HEARDER;
+    text-align: center;
+    
+}
+.menu{
+    background-color: aqua;
+    grid-area: MENU1; 
+    text-align: center;
+}
+.main{
+    background-color: aqua;
+    grid-area: MAIN;
+    text-align: center;
+}
+.right{
+    background-color: aqua;
+    grid-area: RIGHT1;
+    text-align: center;
+}
+.footer{
+    background-color: aqua;
+    grid-area: FOOTER;
+    text-align: center;
+}

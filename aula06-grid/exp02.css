@@ -1,0 +1,20 @@
+body{
+    background-color: blue;
+    margin: 0px;
+}
+.box{
+    background-color: rgba(0, 0, 255, 0.74);
+    margin: 10px;
+    height: 800px;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.a1{
+    background-color: aqua;
+    text-align: center;  
+    padding: 90px;
+    font-size: 25px;
+    border: 2px solid black;
+}
