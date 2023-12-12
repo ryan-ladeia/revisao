@@ -1,0 +1,25 @@
+body{
+    background-color: blue;
+    margin: 0px;
+}
+.box{
+        background-color: rgba(0, 0, 255, 0.74);
+        height: 600px;
+        width: auto;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        gap: 10px;
+ }
+.a1{
+        background-color: aqua;
+        text-align: center;  
+        padding: 50px;
+        font-size: 25px;
+}
+.a8{
+    grid-area: 1 / 2 / 5 / 6;
+    text-align: center;
+    background-color: aqua;
+
+    
+}

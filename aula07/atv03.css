@@ -1,0 +1,86 @@
+
+.box{
+    background-color: yellow;
+    height: 600px;
+    width: auto;
+    border: 6px white solid;
+    display: grid;
+    grid-template-areas: "topo topo topo"
+                          "ce cp cd" 
+                          "rodape rodape rodape";
+    grid-template-rows: 200px 1fr 200px;
+    grid-template-columns: 200px 1fr 200px;
+}
+.topo{
+    background-color: red;
+    grid-area: topo;
+    text-align: center;
+    font-size: 40px;
+    display: grid;
+    grid-template-areas: "topo topo topo topo";
+    grid-template-columns: "20px 1fr 1fr 20px";
+    gap: 10px;
+}
+.topo .topo1{
+    background-color: red;
+}
+
+.ce{
+    background-color: pink;
+    grid-area: ce; 
+    text-align: center;
+    font-size: 40px;
+}
+.cp{
+    background-color: green;
+    grid-area: cp;
+    text-align: center;
+    font-size: 40px;
+}
+.cd{
+    background-color: pink;
+    grid-area: cd;
+    text-align: center;
+    font-size: 40px;
+    display: grid;
+    grid-template-areas: "cd1 cd2"
+                         "cd3 cd4"
+                         "cd5 cd6"
+                         "cd7 cd8";
+    grid-template-columns: "1fr 1fr";
+    grid-template-rows: "1fr 1fr 1fr 1fr";
+    gap: 10px;
+}
+.cd .cd1 p{
+    background-color: blue;
+    grid-area: cd1;
+}
+.cd .cd2{
+    grid-area: cd2;
+}
+.cd .cd3{
+    grid-area: cd3;
+}
+.cd .cd4{
+    grid-area: cd4;
+}
+.cd .cd5{
+    grid-area: cd5;
+}
+.cd .cd6 p{
+    background-color: blue;
+    grid-area: cd6;
+}
+.cd .cd7{
+    grid-area: cd7;
+}
+.cd .cd8{
+    grid-area: cd8;
+}
+
+.rodape{
+    background-color: orange;
+    grid-area: rodape;
+    text-align: center;
+    font-size: 40px;
+}
